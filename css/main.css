@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background: #0a192f;
+    /* color: #70f1da; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    color:#01745e;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+    color: #70f1da;
+    text-decoration: underline;
+}
+
+/* hero */
+
+.hero-section {
+    background: #0a192f;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container h1 {
+    text-transform: capitalize;
+    color: #01745e;
+    font-size: 30px;
+    margin-bottom: 88px;
+}
+
+.container h1 strong {
+    color:#70f1da ;
+}
+
+ .imgContainer img {
+    border-radius: 20px;
+}
+/* proyectos */
+/* h1, h2, h3, h4, h5, h6 {
+    color: #70f1da;
+} */
+
+.proyectos-section {
+    background: #0a192f;
+}
+
+.proyecto-title {
+    color: #70f1da;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.proyectos-section  .proyecto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #435979;
+    border-radius: 30px;
+    background: #111d2f;
+    border-style: solid;
+}
+
+.container h3 {
+    color: #01745e;
+    margin: 15px;
+    text-transform: capitalize;
+}
+
+.proyecto img {
+    border-radius: 30px;
+}
+
+.proyecto p {
+    color: #c4faf0;
+    margin: 0 15px;
+}
+/* experiencia */
+main {
+    background: #0a192f;
+}
+
+.experiencia {
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.evento {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #435979;
+}
+
+.evento-lista-titulo {
+    margin: 15px;
+    text-transform: capitalize;
+    color: #70f1da;
+}
+
+.evento img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.evento-detalles {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: #111d2f;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.evento-descripcion {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #c4faf0;
+}
+
+.evento-url {
+    border: 1px solid #435979;
+    border-style: solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #0f1312;
+    border-radius: 5px;
+    background: #70f1da;
+}
+
+.contactame-section {
+    height: 150px;
+    background: #0f1312;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactame-section h3 {
+    font-family: 'Ropa Sans', sans-serif;
+    text-transform: capitalize;
+    color: #70f1da;
+}
+
+.contactame-section input {
+    border-color: #435979;
+    padding: 10px 20px 10px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url('/images/envelope.svg');
+    background-repeat: no-repeat;
+    background-size: 15px 20px;
+    background-position-x: 5px;
+    background-position-y: center;
+}
+
+.contactame-section button {
+    display: block;
+    margin-top: 10px;
+    color: #0f1312;
+    background: #70f1da;
+    border-color: rgb(67 89 121);
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+.social-link  {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; 
+    /* border: 1px solid red; */
+    /* background: yellow; */
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook {
+    background-image: url('/images/facebook.svg');
+}
+
+.social-link.github {
+    background-image: url('/images/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('/images/instagram.svg');
+}
+
+.footer {
+    background: #435979;
+    color: #c4faf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    vertical-align: middle;
+}
